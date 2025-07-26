@@ -8,138 +8,60 @@
   </head>
   <body>
     <!-- Header  -->
-    <header class="header">
-      <div class="container header-container">
-        <div class="header-top">
-          <div class="header-top-left">
-            <svg
-              class="gps-img"
-              width="22"
-              height="22"
-              viewBox="0 0 13 15"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M1.59998 6C1.59998 3.23858 3.83856 1 6.59998 1C9.36138 1 11.6 3.23858 11.6 6C11.6 8.2317 10.4079 10.2429 9.11528 11.7262C8.47378 12.4623 7.82118 13.0525 7.30968 13.4561C7.05358 13.6582 6.83748 13.8098 6.68018 13.9082C6.65038 13.9268 6.62368 13.9429 6.59998 13.9567C6.57628 13.9429 6.54958 13.9268 6.51978 13.9082C6.36248 13.8098 6.14638 13.6582 5.89028 13.4561C5.37878 13.0525 4.72618 12.4623 4.08469 11.7262C2.79206 10.2429 1.59998 8.2317 1.59998 6ZM6.59998 0C3.28627 0 0.599976 2.68629 0.599976 6C0.599976 8.5808 1.96825 10.8196 3.33079 12.3832C4.01689 13.1705 4.71558 13.803 5.27088 14.2411C5.54818 14.46 5.79438 14.634 5.98968 14.7561C6.08658 14.8167 6.17778 14.8688 6.25818 14.9076C6.29818 14.9269 6.34278 14.9465 6.38888 14.9623C6.42508 14.9747 6.50438 15 6.59998 15C6.69558 15 6.77488 14.9747 6.81108 14.9623C6.85718 14.9465 6.90178 14.9269 6.94178 14.9076C7.02218 14.8688 7.11338 14.8167 7.21028 14.7561C7.40558 14.634 7.65178 14.46 7.92908 14.2411C8.48438 13.803 9.18308 13.1705 9.86918 12.3832C11.2317 10.8196 12.6 8.5808 12.6 6C12.6 2.68629 9.91368 0 6.59998 0ZM5.59998 6C5.59998 5.4477 6.04768 5 6.59998 5C7.15228 5 7.59998 5.4477 7.59998 6C7.59998 6.5523 7.15228 7 6.59998 7C6.04768 7 5.59998 6.5523 5.59998 6ZM6.59998 4C5.49538 4 4.59998 4.89543 4.59998 6C4.59998 7.1046 5.49538 8 6.59998 8C7.70458 8 8.59998 7.1046 8.59998 6C8.59998 4.89543 7.70458 4 6.59998 4Z"
-                fill="#1F2026"
-              />
-            </svg>
-
-            <p class="gps-shahar">
-              Shahar: <a class="shahar" href="#">Toshkent</a>
-            </p>
-            <p class="points">Topshirish punktlari</p>
-          </div>
-          <span class="delivery-free"
-            >Buyurtmangizni 1 kunda bepul yetkazib beramiz!</span
-          >
-          <div class="header-top-right">
-            <div class="header-right-btns">
-              <a class="faq" href="./index.html">Savol javoblar</a>
-              <button class="orders">Buyurtmalarim</button>
-            </div>
-            <select name="langue" id="langue">
-              <option value="langue-uz" selected>
-                <span> O'zbekcha</span>
-              </option>
-              <option value="langue-ru">Русский</option>
-            </select>
-          </div>
+    <header class="top-bar">
+      <div class="top-container">
+        <div class="location">
+          <img src="./icons/location.svg" alt="location" />
+          <span>Shahar: <a href="#">Toshkent</a></span>
         </div>
-        <div class="header-bottom">
-          <div class="bottom-t">
-            <a class="header-logo" href="./index.html"
-              ><img
-                class="header-img"
-                src="https://play-lh.googleusercontent.com/H8bZL1-8zwqPaRJjNZQEo43Uq56pZWy5KbkhP2BJOYJlKA23hVyzag4Ll2e99-pMAw6e"
-                alt="Header Logo"
-                width="32"
-                height="32"
-            /></a>
-            <button class="hero-catalogue">
-              <img
-                src="./images/svg/div.catalog-icon.svg"
-                alt="Katalog Logo Mini"
-              />
-              Katalog
-            </button>
+        <a href="#" class="link">Topshirish punktlari</a>
+        <span class="delivery-msg"
+          >Buyurtmangizni 1 kunda bepul yetkazib beramiz!</span
+        >
+        <div class="top-links">
+          <a href="#">Savol-javoblar</a>
+          <a href="#">Buyurtmalarim</a>
+          <a href="#"
+            ><img src="./images/svg/uzb-icon.svg" alt="flag" /> O'zbekcha</a
+          >
+        </div>
+      </div>
+    </header>
 
-            <div class="bottom-sign-sorted-basket">
-              <!-- Sign Up -->
-              <a class="sign-up full" href="#">
-                <img
-                  class="mini-img"
-                  src="./images/svg/human.svg"
-                  alt="Sign Up Logo"
-                />
-                <p class="sign-up-text">Kirish</p>
-              </a>
-
-              <!-- Sorted -->
-              <a class="sorted full" href="#">
-                <img
-                  class="mini-img"
-                  src="./images/svg/serdsa.svg"
-                  alt="Sorted Logo"
-                />
-                <p class="sorted-text">Saralangan</p></a
-              >
-
-              <!-- Basket -->
-              <a class="basket full" href="#">
-                <img
-                  class="mini-img"
-                  src="./images/svg/savat.svg"
-                  alt="Basket Logo"
-                />
-                <p class="basket-text">Savat</p></a
-              >
-            </div>
-          </div>
-          <div class="bottom-b">
-            <div class="payment-list">
-              <h4 class="payment">
-                <img src="./images/svg/union.png.svg" alt="Payment Img" />
-                Muddatli to'lov
-              </h4>
-
-              <ul class="header-list">
-                <li>
-                  <a class="list-link" href="#">Elektronika</a>
-                </li>
-                <li>
-                  <a class="list-link" href="#">Maishiy texnika</a>
-                </li>
-                <li>
-                  <a class="list-link" href="#">Kiyim</a>
-                </li>
-                <li>
-                  <a class="list-link" href="#">Poyabzallar</a>
-                </li>
-                <li>
-                  <a class="list-link" href="#">Aksessuarlar</a>
-                </li>
-                <li>
-                  <a class="list-link" href="#">Goʻzallik va parvarish</a>
-                </li>
-                <li>
-                  <a class="list-link" href="#">Salomatlik</a>
-                </li>
-                <li>
-                  <a class="list-link" href="#">Uy-roʻzgʻor buyumlari</a>
-                </li>
-                <li>
-                  <a class="list-link" href="#">Qurilish va taʼmirlash</a>
-                </li>
-              </ul>
-            </div>
-
-            <select id="yana">
-              <option value="yana">Yana</option>
-            </select>
-          </div>
+    <header class="main-header">
+      <div class="main-container">
+        <div class="left-side">
+          <img src="./images/svg/Vector-1.svg" alt="uzum logo" class="logo" />
+          <button class="catalog-btn">
+            <img src="./icons/catalog.svg" alt="katalog" />
+            <span>Katalog</span>
+          </button>
+          <nav class="nav-links">
+            <a class="active" href="#"
+              ><img src="./images/svg/union.png.svg" alt="icon" /> Muddatli
+              to'lov</a
+            >
+            <a href="#">Elektronika</a>
+            <a href="#">Maishiy texnika</a>
+            <a href="#">Kiyim</a>
+            <a href="#">Poyabzallar</a>
+            <a href="#">Aksessuarlar</a>
+            <a href="#">Go'zallik va parvarish</a>
+            <a href="#">Salomatlik</a>
+            <a href="#">Uy-ro'zg'or buyumlari</a>
+            <a href="#">Qurilish va ta'mirlash</a>
+            <a href="#">Yana <span class="arrow">▾</span></a>
+          </nav>
+        </div>
+        <div class="right-side">
+          <a href="#"
+            ><img src="./images/svg/human.svg" alt="Kirish" /> Kirish</a
+          >
+          <a href="#"
+            ><img src="./images/svg/serdsa.svg" alt="Saralangan" />
+            Saralangan</a
+          >
+          <a href="#"><img src="./images/svg/savat.svg" alt="Savat" /> Savat</a>
         </div>
       </div>
     </header>
@@ -775,7 +697,9 @@
     <div class="button-container">
       <button class="load-more-button">Yana ko'rsatish 20</button>
     </div>
-    <img src="./images-muddatli-to'lov/muddatli-to'lov.png" alt="Muddati" />
+    <section class="muddatli">
+      <img src="./images-muddatli-to'lov/muddatli-to'lov.png" alt="Muddati" />
+    </section>
     <div class="ion-title">
       Elektronika
       <img
@@ -1114,6 +1038,9 @@
         </div>
       </div>
     </div>
+    <section class="issiq">
+      <img src="./images-issiq-texnika/issiq-texnika.png" alt="issiq-texnika" />
+    </section>
     <!-- card-31  -->
     <div class="cards-container product">
       <div class="card">
@@ -1274,14 +1201,14 @@
         </div>
       </div>
     </div>
-    <img
-      class=""
-      src="./images-muddatli-to'lov/muddatli-to'lov.png"
-      alt="muddatli-to'lov"
-      width="1240"
-      height="413"
-    />
-    <img src="./images-issiq-texnika/issiq-texnika.png" alt="issiq-texnika" />
+    <section class="muddatli">
+      <img
+        class=""
+        src="./images-muddatli-to'lov/muddatli-to'lov.png"
+        alt="muddatli-to'lov"
+      />
+    </section>
+    >
     <!-- card-36  -->
     <div class="cards-container product">
       <div class="card">
@@ -4750,5 +4677,53 @@
         </div>
       </div>
     </div>
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <div class="footer-top container">
+        <div class="footer-column">
+          <h4>Biz haqimizda</h4>
+          <a href="#">Topshirish punktlari</a>
+          <a href="#">Vakansiyalar</a>
+        </div>
+        <div class="footer-column">
+          <h4>Foydalanuvchilarga</h4>
+          <a href="#">Biz bilan bog'lanish</a>
+          <a href="#">Savol-Javob</a>
+        </div>
+        <div class="footer-column">
+          <h4>Tadbirkorlarga</h4>
+          <a href="#">Uzumda soting</a>
+          <a href="#">Sotuvchi kabinetiga kirish</a>
+        </div>
+        <div class="footer-column">
+          <h4>Ilovani yuklab olish</h4>
+          <div class="store-links">
+            <img
+              src="./images-99-gacha/b.app-link__text_margin.svg"
+              alt="AppStore"
+            />
+            <img src="./images-99-gacha/Link.svg" alt="Google Play" />
+          </div>
+          <h4>Uzum ijtimoiy tarmoqlarda</h4>
+          <div class="social-icons">
+            <img src="./images/svg/insta.svg" alt="Instagram" />
+            <img src="./images/svg/tg.svg" alt="Telegram" />
+            <img src="./images/svg/youtube.svg" alt="YouTube" />
+            <img src="./images/svg/facebooke.svg" alt="Facebook" />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom container">
+        <div class="footer-left">
+          <a href="#">Maxfiylik kelishuvi</a>
+          <a href="#">Foydalanuvchi kelishuvi</a>
+        </div>
+        <div class="footer-right">
+          ©2024 XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar
+          himoyalangan
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
