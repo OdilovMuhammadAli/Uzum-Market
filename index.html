@@ -1,0 +1,4754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uzum Market</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header class="header">
+      <div class="container header-container">
+        <div class="header-top">
+          <div class="header-top-left">
+            <svg
+              class="gps-img"
+              width="22"
+              height="22"
+              viewBox="0 0 13 15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M1.59998 6C1.59998 3.23858 3.83856 1 6.59998 1C9.36138 1 11.6 3.23858 11.6 6C11.6 8.2317 10.4079 10.2429 9.11528 11.7262C8.47378 12.4623 7.82118 13.0525 7.30968 13.4561C7.05358 13.6582 6.83748 13.8098 6.68018 13.9082C6.65038 13.9268 6.62368 13.9429 6.59998 13.9567C6.57628 13.9429 6.54958 13.9268 6.51978 13.9082C6.36248 13.8098 6.14638 13.6582 5.89028 13.4561C5.37878 13.0525 4.72618 12.4623 4.08469 11.7262C2.79206 10.2429 1.59998 8.2317 1.59998 6ZM6.59998 0C3.28627 0 0.599976 2.68629 0.599976 6C0.599976 8.5808 1.96825 10.8196 3.33079 12.3832C4.01689 13.1705 4.71558 13.803 5.27088 14.2411C5.54818 14.46 5.79438 14.634 5.98968 14.7561C6.08658 14.8167 6.17778 14.8688 6.25818 14.9076C6.29818 14.9269 6.34278 14.9465 6.38888 14.9623C6.42508 14.9747 6.50438 15 6.59998 15C6.69558 15 6.77488 14.9747 6.81108 14.9623C6.85718 14.9465 6.90178 14.9269 6.94178 14.9076C7.02218 14.8688 7.11338 14.8167 7.21028 14.7561C7.40558 14.634 7.65178 14.46 7.92908 14.2411C8.48438 13.803 9.18308 13.1705 9.86918 12.3832C11.2317 10.8196 12.6 8.5808 12.6 6C12.6 2.68629 9.91368 0 6.59998 0ZM5.59998 6C5.59998 5.4477 6.04768 5 6.59998 5C7.15228 5 7.59998 5.4477 7.59998 6C7.59998 6.5523 7.15228 7 6.59998 7C6.04768 7 5.59998 6.5523 5.59998 6ZM6.59998 4C5.49538 4 4.59998 4.89543 4.59998 6C4.59998 7.1046 5.49538 8 6.59998 8C7.70458 8 8.59998 7.1046 8.59998 6C8.59998 4.89543 7.70458 4 6.59998 4Z"
+                fill="#1F2026"
+              />
+            </svg>
+
+            <p class="gps-shahar">
+              Shahar: <a class="shahar" href="#">Toshkent</a>
+            </p>
+            <p class="points">Topshirish punktlari</p>
+          </div>
+          <span class="delivery-free"
+            >Buyurtmangizni 1 kunda bepul yetkazib beramiz!</span
+          >
+          <div class="header-top-right">
+            <div class="header-right-btns">
+              <a class="faq" href="./index.html">Savol javoblar</a>
+              <button class="orders">Buyurtmalarim</button>
+            </div>
+            <select name="langue" id="langue">
+              <option value="langue-uz" selected>
+                <span> O'zbekcha</span>
+              </option>
+              <option value="langue-ru">Русский</option>
+            </select>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="bottom-t">
+            <a class="header-logo" href="./index.html"
+              ><img
+                class="header-img"
+                src="https://play-lh.googleusercontent.com/H8bZL1-8zwqPaRJjNZQEo43Uq56pZWy5KbkhP2BJOYJlKA23hVyzag4Ll2e99-pMAw6e"
+                alt="Header Logo"
+                width="32"
+                height="32"
+            /></a>
+            <button class="hero-catalogue">
+              <img
+                src="./images/svg/div.catalog-icon.svg"
+                alt="Katalog Logo Mini"
+              />
+              Katalog
+            </button>
+
+            <div class="bottom-sign-sorted-basket">
+              <!-- Sign Up -->
+              <a class="sign-up full" href="#">
+                <img
+                  class="mini-img"
+                  src="./images/svg/human.svg"
+                  alt="Sign Up Logo"
+                />
+                <p class="sign-up-text">Kirish</p>
+              </a>
+
+              <!-- Sorted -->
+              <a class="sorted full" href="#">
+                <img
+                  class="mini-img"
+                  src="./images/svg/serdsa.svg"
+                  alt="Sorted Logo"
+                />
+                <p class="sorted-text">Saralangan</p></a
+              >
+
+              <!-- Basket -->
+              <a class="basket full" href="#">
+                <img
+                  class="mini-img"
+                  src="./images/svg/savat.svg"
+                  alt="Basket Logo"
+                />
+                <p class="basket-text">Savat</p></a
+              >
+            </div>
+          </div>
+          <div class="bottom-b">
+            <div class="payment-list">
+              <h4 class="payment">
+                <img src="./images/svg/union.png.svg" alt="Payment Img" />
+                Muddatli to'lov
+              </h4>
+
+              <ul class="header-list">
+                <li>
+                  <a class="list-link" href="#">Elektronika</a>
+                </li>
+                <li>
+                  <a class="list-link" href="#">Maishiy texnika</a>
+                </li>
+                <li>
+                  <a class="list-link" href="#">Kiyim</a>
+                </li>
+                <li>
+                  <a class="list-link" href="#">Poyabzallar</a>
+                </li>
+                <li>
+                  <a class="list-link" href="#">Aksessuarlar</a>
+                </li>
+                <li>
+                  <a class="list-link" href="#">Goʻzallik va parvarish</a>
+                </li>
+                <li>
+                  <a class="list-link" href="#">Salomatlik</a>
+                </li>
+                <li>
+                  <a class="list-link" href="#">Uy-roʻzgʻor buyumlari</a>
+                </li>
+                <li>
+                  <a class="list-link" href="#">Qurilish va taʼmirlash</a>
+                </li>
+              </ul>
+            </div>
+
+            <select id="yana">
+              <option value="yana">Yana</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- cards  -->
+    <h2>uy</h2>
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-uy-rozgor/yog'.png"
+            alt="yog"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-2  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/ch/phone.png"
+            alt="phone"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+
+        <div class="title">
+          Smartfon Xiaomi Redmi Note 13, 6/128 GB, 8/128 GB, 8/256GB,…
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (8 sharh)</span>
+        </div>
+        <div class="nasiya">299 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">3 010 000 so'm</span>
+          <span class="new-price">2 499 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-3  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-uy-rozgor/kir-yuvish-kukuni (2).png"
+            alt="kir-yuvish-kukuni"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Eksklyuziv</div>
+        <div class="title">
+          Kir yuvish kukuni Oila tanlovi "Ayoz tazeligi", avtomat, 3 kg
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.5 </span>
+          <span class="reviews"> (123 sharh)</span>
+        </div>
+        <div class="nasiya">4 920 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">57 000 so'm</span>
+          <span class="new-price">41 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-4  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/ch/pijama-detskiy.png"
+            alt="pijama-detskiy"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Yangi tug'ilgan chaqaloqlar uchun tana to'plami 100% paxta, 3 dona
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (1 sharh)</span>
+        </div>
+        <div class="nasiya">11 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">160 000 so'm</span>
+          <span class="new-price">99 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-5  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/ch/cake.png"
+            alt="cake"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">59 000 so'm</span>
+          <span class="new-price"> 36 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-6  -->
+
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-elektronika/telik.png"
+            alt="telik"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Televizor Samsung Crystal UHD 4K 43", 50", 55", 65" CU7100 Smart TV
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (9 sharh)</span>
+        </div>
+        <div class="nasiya">587 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">5 830 000 so'm</span>
+          <span class="new-price"> 4 899 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-7  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-elektronika/pelesisos (1).png"
+            alt="pelesisos"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Avtomobil va uy uchun portativ, simsiz, kuchli JB-107 changyutgic…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.7 </span>
+          <span class="reviews"> (32 sharh)</span>
+        </div>
+        <div class="nasiya">23 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">620 000 so'm</span>
+          <span class="new-price">199 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-8 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/ch/sumka.png"
+            alt="sumka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Sumka shopper ayollar uchun, yelkama, charmdan, eko zamsh,…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (4 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">400 000 so'm</span>
+          <span class="new-price">99 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-9  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/ch/xiomi.png"
+            alt="xiomi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Smartfon Xiaomi Redmi Note 13 Pro, 8/256 ГБ, 12/512 ГБ, 6.67", 1…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">448 680 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">6 000 000 so'm</span>
+
+          <span class="new-price">3 739 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-10  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/t_product_540_high.jpg.png"
+            alt="yostiq"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Yostiqlar to'plami, bambukdan, gipoallergenli, ekologik toza, 70 *…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (165 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">197 000 so'm</span>
+          <span class="new-price">89 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-11  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            class="img-card"
+            src="./images/t_product_540_high.jpg (1).png"
+            alt="asboblar"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Drel shurup buragich L-FINE, cho'tkasiz to'plam, 54 ta buyumdan
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (10 sharh)</span>
+        </div>
+        <div class="nasiya">71 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">850 000 so'm</span>
+          <span class="new-price">599 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-12  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/t_product_540_high.jpg (2).png"
+            alt="erkaklar-uchun-krassovka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div style="background-color: red" class="badge">Di sport</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (20 sharh)</span>
+        </div>
+        <div class="nasiya">41 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">687 000 so'm</span>
+          <span class="new-price">349 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-13  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/ch/kir-yuvish-mashinasi.png"
+            alt="kir-yuvish-mashinasi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (47 sharh)</span>
+        </div>
+        <div class="nasiya">455 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">4 570 000 so'm</span>
+          <span class="new-price">3 799 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-14  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/ch/pepsi.png"
+            alt="pepsi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya Pepsi</div>
+        <div class="title">Gazlangan ichimlik Pepsi, 1.5 litr</div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (1939 sharh)</span>
+        </div>
+        <div class="nasiya">1 440 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">13 000 so'm</span>
+          <span class="new-price">12 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-15  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/ch/casio-soatlari.png"
+            alt="casio-soatlari"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Casio F-91W Qo'l Soati, Elektron tablo, Budilnik, Sekundomer, LED…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (3 sharh)</span>
+        </div>
+        <div class="nasiya">35 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">420 000 so'm</span>
+          <span class="new-price">299 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-16  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/ch/sport-kostumi.png"
+            alt="sport-kostumi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Sport kostyumi o'g'il bolalar uchun DUDUKA TRENDS. To'plam Hudi…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.7 </span>
+          <span class="reviews"> (54 sharh)</span>
+        </div>
+        <div class="nasiya">23 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">388 000 so'm</span>
+          <span class="new-price">199 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-17  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/ch/chanyutgich.png"
+            alt="chanyutgich"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">Chanyutgich Artel VCB0316, 1600 Vt</div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (48 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">999 000 so'm</span>
+          <span class="new-price">699 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-18 -->
+      <div class="card">
+        <div class="top">
+          <img src="./images/monitar.png" alt="avto-monitori" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Avtomobil monitorlari Teyes CC2L Plus 10.2/2+32 Gentra, Lasetti…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.2 </span>
+          <span class="reviews"> (29 sharh)</span>
+        </div>
+        <div class="nasiya">142 800 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">1 752 000 so'm</span>
+          <span class="new-price">1 190 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-19  -->
+      <div class="card">
+        <div class="top">
+          <img src="./images/shampun.png" alt="shompun" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Shampun L'Oreal Paris Elseve, to'liq tiklanish 5, 250 ml
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (6 sharh)</span>
+        </div>
+        <div class="nasiya">3 240 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">38 000 so'm</span>
+          <span class="new-price">27 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-20  -->
+      <div class="card">
+        <div class="top">
+          <img src="./images-arzon-narxlar/ch/etiklar.png" alt="etiklar" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Tabiiy charmdan tayyorlangan etiklar, qishki, mex bilan, suv…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">35 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">599 000 so'm</span>
+          <span class="new-price">299 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button class="load-more-button">Yana ko'rsatish 20</button>
+    </div>
+    <img src="./images-muddatli-to'lov/muddatli-to'lov.png" alt="Muddati" />
+    <div class="ion-title">
+      Elektronika
+      <img
+        class="card-img"
+        src="./images-elektronika/strelka.svg"
+        alt="strelka"
+        width="24"
+        height="36"
+      />
+    </div>
+
+    <!-- card-21 -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-elektronika/profi-televizor (1).png"
+            alt="profi-televizor"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="badge-2">Vaqtinchalik chegirma</div>
+        <div class="title">
+          Professional LED monitor Samsung, 24", 27" T450F
+        </div>
+
+        <div class="rating">
+          <span class="score">
+            <img src="./images/Vector (1).svg" alt="soat" />
+          </span>
+          <span class="reviews"> 45 ч. 17 мин.</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">2 998 000 so'm</span>
+          <span class="new-price">1 799 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-22  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-elektronika/quloqchinlar.png"
+            alt="quloqchinlar"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge-2">Vaqtinchalik chegirma</div>
+        <div class="badge">Aksiya</div>
+
+        <div class="title">
+          Anker Life 2 Neo simsiz quloqchinlari chuqur bosh va uzo…
+        </div>
+        <div class="rating">
+          <span class="score"
+            ><img src="./images/Vector (1).svg" alt="soat"
+          /></span>
+          <span class="reviews"> 40 ч. 02 мин.</span>
+        </div>
+        <div class="nasiya">70 680 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">1 089 000 so'm</span>
+          <span class="new-price">589 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-23  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-elektronika/smart-tv.png"
+            alt="smart-tv"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="badge-2">Vaqtinchalik chegirma</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> </span>
+        </div>
+        <div class="nasiya">293 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">4 238 000 so'm</span>
+          <span class="new-price">2 449 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-24  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-elektronika/smart-kolonkalar.png"
+            alt="smart-kolonkalar"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (1 sharh)</span>
+        </div>
+        <div class="nasiya">259 080 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">2 699 000 so'm</span>
+          <span class="new-price">2 159 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+
+      <!-- card-25  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-elektronika/smaarphone-honor.png"
+            alt="smaarphone-honor"
+            width="232"
+            height="309.32"
+          />
+
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="badge-2">Vaqtinchalik chegirma</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+
+        <div class="nasiya">371 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">4 782 000 so'm</span>
+          <span class="new-price">3 099 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-26  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-oshxona/mikro-tolqinli-pech.png"
+            alt="mikro-tolqinli-pech"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Mikroto'lqinli pech Goodwell GMF- 2012W, Solo, 20 L
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (2 sharh)</span>
+        </div>
+        <div class="nasiya">106 680 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">1 485 000 so'm</span>
+          <span class="new-price">889 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-27  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-oshxona/sharbat-chiqargich.png"
+            alt="sharbat-chiqargich"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">Sharbat chiqargich LAMO LM- J718S</div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.7 </span>
+          <span class="reviews"> (64 sharh)</span>
+        </div>
+        <div class="nasiya">75 960 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">782 000 so'm</span>
+          <span class="new-price">633 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-28 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-oshxona/suv-uchun-kuler.png"
+            alt="suv-uchun-kuler"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">Suv uchun kuler Sel 27, freon bilan sovutish</div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (7 sharh)</span>
+        </div>
+        <div class="nasiya">135 240 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">1 653 000 so'm</span>
+          <span class="new-price">1 127 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-29  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-oshxona/maydalagich.png"
+            alt="maydalagich"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Maydalagich Chopper Sonifer SF- 8107, 300 Vt, 1.8 litr
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (9 sharh)</span>
+        </div>
+        <div class="nasiya">52 200 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">695 000 so'm</span>
+          <span class="new-price">435 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-30  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-oshxona/mikser.png"
+            alt="mikser"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Qo'l mikseri Haley HY-1636-eng zor qurilma-va juda katta skidka
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (14 sharh)</span>
+        </div>
+        <div class="nasiya">36 000 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">500 000</span>
+          <span class="new-price">300 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-31  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-muddatli-to'lov/instrumentlar toplami-toplami.png"
+            alt="avto-monitari"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">5.0 </span>
+          <span class="reviews"> (10 sharh)</span>
+        </div>
+        <div class="nasiya">71 880 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">850 000 so'm</span>
+          <span class="new-price">599 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-32  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-muddatli-to'lov/avto-monitari.png"
+            alt="avto-monitari"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Avtomobil monitorlari Teyes CC2L Plus 10.2/2+32 Gentra, Lasetti…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">1 752 000 so'm</span>
+          <span class="new-price">1 190 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-33  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-muddatli-to'lov/qon-bosimni-olchedigon.png"
+            alt=""
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Avtomatik elektron qon bosimi o'lchagichi qon bosimini o'lchash…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.1 </span>
+          <span class="reviews"> (27 sharh)</span>
+        </div>
+        <div class="nasiya">26 400 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">450 000 so'm</span>
+          <span class="new-price">220 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-34  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-muddatli-to'lov/erkaklar-kiyim-toplami.png"
+            alt="erkaklar-kiyim-toplami"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">Erkaklar sport to'plami, xudi shim bilan, qora</div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (237 sharh)</span>
+        </div>
+        <div class="nasiya">23 400 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">320 000 so'm</span>
+          <span class="new-price">195 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-35  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-muddatli-to'lov/orqa-kameraniki.png"
+            alt="orqa-kameraniki"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <img
+      class=""
+      src="./images-muddatli-to'lov/muddatli-to'lov.png"
+      alt="muddatli-to'lov"
+      width="1240"
+      height="413"
+    />
+    <img src="./images-issiq-texnika/issiq-texnika.png" alt="issiq-texnika" />
+    <!-- card-36  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-issiq-texnika/issitgich.png"
+            alt="issitgich"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-37  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-issiq-texnika/kosditsaner.png"
+            alt="kosditsaner"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-38 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-issiq-texnika/havo-tozalagich.png"
+            alt="havo-tozalagich"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-39  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-issiq-texnika/konvector (1).png"
+            alt="konvector"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-40 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-issiq-texnika/radiator-issitgich.png"
+            alt="cake"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-41 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-uy-rozgor/un.png"
+            alt="un"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-42  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-uy-rozgor/konserva.png"
+            alt="konserva"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-43 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-uy-rozgor/bug;doy-un.png"
+            alt="bug'doyli-un"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (49 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-44 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-uy-rozgor/yog'-500ml.png"
+            alt="yog"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-45  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-uy-rozgor/javdar-un.png"
+            alt="javdar-un"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-46  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-qishgi/fonar.png"
+            alt="fonar"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-47 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-qishgi/vibro-tayog'.png"
+            alt="vibro-tayog"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-48  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-qishgi/nike-boshga.png"
+            alt="nike-boshga"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-49  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-qishgi/fitness-top.png"
+            alt="fitness-top"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-50  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-qishgi/tizalarga-himoya.png"
+            alt="tizalarga-himoya"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-51  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-uy-shinami/dekor-sham.png"
+            alt="dekor-sham"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-52 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-uy-shinami/organayzer-paypoq.png"
+            alt="organayzer-paypoq"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-53 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-uy-shinami/ilgich-plastik.png"
+            alt="ilgich-plastik"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-54  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-uy-shinami/tishli-ilgich.png"
+            alt="tishli-ilgich"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-55  -->
+      <div class="card">
+        <div class="top">
+          <img src="./images-uy-shinami/skavarodka.png" alt="skavarodka" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-56  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-gozzalik/yuz-uchun-gel.png"
+            alt="yuz-uchun-gel"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-57  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-gozzalik/soch-uchun-boyoq.png"
+            alt="soch-uchun-boyoq"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-58  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-gozzalik/tush.png"
+            alt="tush"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-59  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-gozzalik/yez-uchun-gel.png"
+            alt="yez-uchun-gel"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-60  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-gozzalik/soch-sprey.png"
+            alt="soch-sprey"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-61  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/oyinchok.png"
+            alt="oyinchok"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-62  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/g'ilof-kiyim.png"
+            alt="g'ilof"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-63 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/soch-qisqich.png"
+            alt="soch-qisqich"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-64  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/sport-sumka.png"
+            alt="sport-sumka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-65  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/idish-gel.png"
+            alt="idish-gel"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-66  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/shisha-choynak.png"
+            alt="shisha-choynak"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-67  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/tushonka.png"
+            alt="tushonka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-68  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/tualet-ruchka.png"
+            alt="tualet-ruchka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-69  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/igrovoy-naushnik.png"
+            alt="igrovoy-naushnik"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-70  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/radar.png"
+            alt="radar"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-71  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/nestogen.png"
+            alt="nestogen"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-72  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/persil.png"
+            alt="persil"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-73 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/gofe-soch-turmak.png"
+            alt="gofe-soch-turmak"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-74  -->
+      <div class="card">
+        <div class="top">
+          <img src="./images-mashhur/rasm-tizamiz.png" alt="rasm-tizamiz" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-75  -->
+      <div class="card">
+        <div class="top">
+          <img src="./images-mashhur/kluch-nabor.png" alt="kluch-nabor" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-76  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/kiyim-organayzer.png"
+            alt="kiyim-organayzer"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card+77  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/oyoq-selikoni.png"
+            alt="oyoq-selikoni"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-78  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/qizlar-uchun-soch-rezinkalari.png"
+            alt="qizlar-uchun-soch-rezinkalari"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-79  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/toplami-abob.png"
+            alt="asboblar"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+
+      <!-- card-80  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-mashhur/qolda-kesuvchi-sabzovot.png"
+            alt="qolda-kesuvchi-sabzovot"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+
+      <!-- card-81  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-asboblar/perfarator.png"
+            alt="perfarator"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+
+      <!-- card-82  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-asboblar/shurupavor.png"
+            alt="shurupavor"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-83 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-asboblar/shlang.png"
+            alt="shlang"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-84  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-asboblar/nabor.png"
+            alt="nabor"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-85  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-asboblar/ochki.png"
+            alt="ochki"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-86  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-99-gacha/erkak-futbolkasi.png"
+            alt="erkak-futbolkasi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-87  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-99-gacha/erkak-ishton.png"
+            alt="erkak-ishton"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-88  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-99-gacha/jinsi.png"
+            alt="jinsi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-89  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-99-gacha/hudi.png"
+            alt="hudi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-90  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-99-gacha/vodolaska.png"
+            alt="vodolaska"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-91  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-kitob/invist.png"
+            alt="invist"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-92  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-kitob/marketing.png"
+            alt="marketing"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-93 -->
+      <div class="card">
+        <div class="top">
+          <img src="./images-kitob/agata.png" alt="agata" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-94  -->
+      <div class="card">
+        <div class="top">
+          <img src="./images-kitob/kristi.png" alt="kristi" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-95  -->
+      <div class="card">
+        <div class="top">
+          <img src="./images-kitob/yaponskiyi-sham.png" alt="yaponskiyi-sham" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-96  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-poyabzal/poyabzal.png"
+            alt="poyabzal"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-97  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-poyabzal/qishgi-etik.png"
+            alt="qishgi-etik"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-98  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-poyabzal/batinka-ayollar.png"
+            alt="batinka-ayollar"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-99  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-poyabzal/krasovka.png"
+            alt="krasovka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-100:)  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-poyabzal/ayollar-krassovka.png"
+            alt="ayollar-krassovka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-101  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-bolalar/pijama.png"
+            alt="pijama"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-102  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-bolalar/pampers-7-18kg.png"
+            alt="pampers-7-18kg"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-103 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-bolalar/4-7-18kg.png"
+            alt="4-7-18kg"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-104  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-bolalar/4-8-14kg.png"
+            alt="4-8-14kg"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-105  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-bolalar/10-16kg.png"
+            alt="10-16kg"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-106  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/xobbi/takimjoq-yasash.png"
+            alt="takimjoq-yasash"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-107  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/xobbi/marker.png"
+            alt="marker"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-108  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/xobbi/grafik-tizish.png"
+            alt="grafik-tizish"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-109  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/xobbi/rasm-toplam.png"
+            alt="rasm-toplam"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-110  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/xobbi/k-pop-karta.png"
+            alt="k-pop-karta"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-111  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/yana-krassovka/qora.png"
+            alt="qora-krassovka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-112  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/yana-krassovka/sgushonka-rangi.png"
+            alt="sgushonka-rangi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-113 -->
+      <div class="card">
+        <div class="top">
+          <img src="./images/yana-krassovka/oq.png" alt="oq-krassovka" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-114  -->
+      <div class="card">
+        <div class="top">
+          <img src="./images/yana-krassovka/toq.png" alt="toq" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-115  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/yana-krassovka/ayolskiy-oq.png"
+            alt="ayollar-krassovka"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-116  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/uy-yordamchilari/parashok.png"
+            alt="parashok"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-117  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/uy-yordamchilari/smart-shvabra.png"
+            alt="smart-shvabra"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-118  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/uy-yordamchilari/tozalash-nabor.png"
+            alt="tozalash-nabor"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-119 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/uy-yordamchilari/sushilka.png"
+            alt="sushilka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-120  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/uy-yordamchilari/salfetka.png"
+            alt="salfetka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-121  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/images-brend/etiklar-ayol.png"
+            alt="etiklar"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-122 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/images-brend/kertka40_high.jpg.png"
+            alt="kurtka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-123 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/images-brend/erkak-oyoq.png"
+            alt="erkak-oyoq"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-124  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/images-brend/oq-erkak-krassovkasi.png"
+            alt="oq-erkak-krassovkasi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-125  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/images-brend/qizlar-libosi.png"
+            alt="qizlar-libosi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-126  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/butun-oila-uchun/erkaklar-kuryka.png"
+            alt="Oila"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-127 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/butun-oila-uchun/perfecto-kurtka.png"
+            alt="perfecto-kurtka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-128  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/butun-oila-uchun/qizlar-vadalaskasi.png"
+            alt="qizlar-vadalaskasi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-129  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/butun-oila-uchun/yana-ayol-vadalaskasi.png"
+            alt="pepsi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-130  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/butun-oila-uchun/svitshot.png"
+            alt="svitshot"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-131  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/avto-uchun/helecopter-avto.png"
+            alt="helecopter-avto"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-132  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/avto-uchun/dvorniki.png"
+            alt="dvorniki"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-133 -->
+      <div class="card">
+        <div class="top">
+          <img src="./images/avto-uchun/plastinka.png" alt="plastinka" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-134  -->
+      <div class="card">
+        <div class="top">
+          <img src="./images/avto-uchun/migalka.png" alt="migalka" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-135  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images/avto-uchun/vintli-stiker.png"
+            alt="vintli-stiker"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- card-136  -->
+    <div class="cards-container product">
+      <div class="card">
+        <div class="top">
+          <img src="./" alt="yog" width="232" height="309.32" />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-137  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/phone.png"
+            alt="phone"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (45 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-138  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/kir-yuvish-kukuni (1).png"
+            alt="kir-yuvish-kukuni"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (233 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-139  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/pijama-detskiy.png"
+            alt="pijama-detskiy"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (411 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-140  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/cake.png"
+            alt="cake"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (23 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-141  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/telik.png"
+            alt="telik"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (452 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-142  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/pelesisos.png"
+            alt="pelesisos"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (23 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-143 -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/sumka.png"
+            alt="sumka"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (65 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-144  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/xiomi.png"
+            alt="xiomi"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (12 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+      <!-- card-145  -->
+      <div class="card">
+        <div class="top">
+          <img
+            src="./images-arzon-narxlar/yostiq.png"
+            alt="yostiq"
+            width="232"
+            height="309.32"
+          />
+          <div class="like">♡</div>
+        </div>
+        <div class="badge">Aksiya</div>
+        <div class="title">
+          Kungaboqar yog'i Oila tanlovi, tozalangan va xidsizlantirilgan, 90…
+        </div>
+        <div class="rating">
+          <span class="star">★</span>
+          <span class="score">4.9 </span>
+          <span class="reviews"> (3 sharh)</span>
+        </div>
+        <div class="nasiya">1 560 so'm/oyiga</div>
+        <div class="prices">
+          <span class="old-price">15 000 so'm</span>
+          <span class="new-price">13 000 so'm</span>
+        </div>
+        <div class="cart">
+          <a href="#">
+            <img src="./images/svg/div.slot.svg" alt="korzinka-savat" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
